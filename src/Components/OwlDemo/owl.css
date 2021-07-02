@@ -1,0 +1,149 @@
+.title  
+{  
+        margin-bottom: 20px;  
+        padding:20px  ;
+        font-family: 'Barlow', sans-serif;
+       
+}  
+.img  
+{  
+        height: auto;width:100%  
+}  
+.head2{
+        text-align: center;
+        font-weight: 800;
+        color: #ffc500;
+        font-family: 'Barlow', sans-serif
+}
+.main2{
+        background-color:#000;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+        font-size: 3rem;
+        position: relative;
+        bottom:317px;
+        color: white;
+ }
+ .owl-prev{
+        left: -639px;
+}
+.owl-next{
+        right: -639px;
+}
+
+/* iframe{
+        position: relative;
+        left: 509px;
+        top: 100px;
+} */
+
+
+/* @media only screen and (min-width:769px) {
+        .img {
+                height: auto;
+                width: 61%;
+                position: relative;
+                left: 290px;
+                top: 18px;
+            }
+        .yeah{
+                height: 640px;
+        }    
+        .edits{
+                position: relative;
+                top: 55px;
+        }
+        .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+                display: none;
+        }
+        iframe{
+                position: relative;
+                left: 509px;
+                top: 100px;
+        }
+}
+
+@media only screen and (max-width: 600px){
+        .yeah{
+                height: 350px;
+                
+                    
+        }
+        .img {
+                height: auto;
+                width: 100%;
+                position: relative;
+                top: 45px;
+        }
+        .owl-prev,.owl-next{
+        position: relative;
+        bottom: 230px;
+        color: white;
+        }
+       
+        .edits{
+                font-size: 2rem;
+                position: relative;
+                top:72px;
+                font-weight: 700;
+        }
+        .head2{
+                position: relative;
+                top: 26px;
+                font-family: 'Barlow', sans-serif
+        }
+       
+        .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+               font-size: 2rem;
+               position: relative;
+               bottom:250px;
+               color: white;
+        }
+        .owl-theme .owl-dots{
+               position: relative;
+               bottom: 41px;
+        }
+        
+} */
+
+.edits{
+        text-align: center;
+        color: #ffc500;
+        font-weight: 600;
+        font-family: 'Barlow', sans-serif
+       
+}
+.yeah{
+        width: 60%;
+        margin: auto;
+        padding-top: 35%;
+        position: relative;
+}
+
+.yeah iframe{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+}
+@media only screen and (max-width: 600px){
+        .yeah{
+                width: 81%;
+                padding-top: 53%;
+        }
+        .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+                font-size: 2rem;
+                position: relative;
+                bottom:135px;
+                color: white;
+         }
+         .owl-prev{
+                left: -139px;
+        }
+        .owl-next{
+                right: -139px;
+        }
+}
